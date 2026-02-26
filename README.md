@@ -1,16 +1,14 @@
-## Hi there 👋
-
-<!--
-**Robohac/robohac** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+na=int(input("hello! welcome to pytriplet finder.which coloumn no.you will give? I.e. 1st,2nd or 3rd"))
+#it asks for the digit of a pythgorean triplet.
+num=int(input("what is that no.="))
+if na == 1:
+    print(num,num/2-1,num/2+1)
+elif na == 2:
+    print((num+1)*2,num,num+2) 
+elif na == 3:       
+    print((num-1)*2,num-2,num)
+feedback=str(input("is it gone good?"))
+if feedback == "yes":
+    print("thank you!")
+else:
+    print("try again!")
